@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-size: 9px;
+    font-weight: 15;
+    line-height: 1;
+
+}
+
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header-area{
+    background-color: black;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    font-size: 7px;
+    color: rgb(214, 214, 214);
+    margin: 0 11px;
+    font-weight: 20px;
+    padding: 8px 0;
+    display: inline-block;
+}
+button{
+    font-size: 7px;
+    background-color: greenyellow;
+    border-radius: 19px;
+}
+.hero-area{
+     display: grid;
+    grid-template-columns: 50% auto;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+    
+     display: flex;
+     justify-content: space-between;
+     
+     width: 100%; 
+    
+}
+/* .hero-left{
+    font-size: 9px;
+    color: black;
+    font-weight: 20px;
+    line-height: 1.2;
+
+    margin-top: 7px;
+margin-right: 22px;
+} */
+.hero-left h2{
+    text-align: center;
+    font-size: 10px;
+margin-left: 49px;
+}
+.hero-left p{
+    text-align: center;
+    font-size: 6px;
+margin-left: 48px;
+margin-top: 4px
+
+}
+  
+.hero-right{
+  
+     
+    
+    font-size: 5px; 
+margin-left: 54px;
+
+} 
+.hero-right img{
+
+    margin-left: 40px;
+
+}
+
+
+
+
+.wrapper{
+    margin-top: 10px;
+    text-align: center;
+    line-height:6px;
+    background-color: black;
+
+}
+
+.wrapper h1{
+    font-size: 8px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    color: white;
+}
+.wrapper .abc{
+    width: 50%;
+    margin: 0auto 70px; 
+    text-align: center;
+    margin-left: 80px;
+    color: white;
+}
+.pricing_wrapper{
+    display: flex;
+}
+.pricing_wrapper .pricing_item{
+    margin: 15px;
+    width: 100px;
+    background-color: white;
+    height: 80px;
+}
+.pricing_wrapper .pricing_item .money{
+    font-size: 10px;
+    font-weight: 30px;
+    margin: 3px 4px;
+   
+}
+.pricing_wrapper .pricing_item h3{
+    color:  #4aca85;
+    font-size: 6px;
+    text-transform: uppercase;
+  
+}
+.pricing_wrapper .pricing_item a{
+    text-decoration: none;
+    color: Red;
+    background-color: #4aca85;
+    margin-top: 6px;
+}
+
+
+
+
+
+.contact-area{
+    padding: 14px 0;
+    font-size: 8px;
+    text-align: center;
+    background-color: rgb(24, 153, 176);
+    
+}
+.contact-left div{
+    margin-bottom: 10px;
+
+}
+.contact-left div label{
+display: block;
+font-size: 10px;
+font-weight: 30px;
+line-height: 1;
+}
+.contact-left div input{
+    font-size: 8px;
+    height: 9px;
+}
+.contact-right{
+    font-size: 6px;
+    line-height: 0.9;
+    margin-bottom: 4px;
+    color: black;
+    margin-top: 2px;
+}
+
+ 
+
+.service-area .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+.service-area .container .row .single-services h3{
+    font-size: 11px;
+    color: green;
+    font-weight: 30px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.container1{
+    max-width: 1170px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+
+}
+.footer{
+    background-color:black ;
+    padding: 10px 10px 10px 10px;
+    margin-top: 38px;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 9px;
+    text-transform: capitalize;
+    margin-bottom: 9px;
+    font-weight: 10px;
+    position:relative;
+    
+}
+.footer-col h4::before{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    width: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
